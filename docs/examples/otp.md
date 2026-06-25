@@ -14,7 +14,7 @@ End-to-end guide: search → purchase → receive OTP → handle refunds.
 ## How it works
 
 ```
-Your app                 Verixo API              SMS aggregator
+Your app              VerifiedCore API           SMS aggregator
    │                         │                         │
    │─── search numbers ──────▶                         │
    │◀── ranked list (Health Score™) ─────────────────  │
@@ -249,7 +249,7 @@ curl -X POST "https://api.verifiedcore.com/v1/webhooks" \
   -H "Authorization: $VC_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
-    "url": "https://yourapp.com/hooks/verixo",
+    "url": "https://yourapp.com/hooks/verifiedcore",
     "events": ["otp.delivered", "sla.breached"]
   }'
 ```

@@ -3,7 +3,7 @@ const { themes: prismThemes } = require('prism-react-renderer');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Verixo Docs',
+  title: 'VerifiedCore Docs',
   tagline: 'OTP delivery · eSIM provisioning · calling — first API call in 5 minutes',
   favicon: 'img/favicon.ico',
 
@@ -49,7 +49,7 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'Verixo',
+        title: 'VerifiedCore',
         items: [
           {
             type: 'docSidebar',
