@@ -1,0 +1,22 @@
+/* Verixo brand palette — indigo primary, dark navy surface */
+:root {
+  --ifm-color-primary: #5b5ef8;
+  --ifm-color-primary-dark: #3b3ef5;
+  --ifm-color-primary-darker: #2b2ef3;
+  --ifm-color-primary-darkest: #0a0cf0;
+  --ifm-color-primary-light: #7b7efa;
+  --ifm-color-primary-lighter: #8b8efb;
+  --ifm-color-primary-lightest: #abaefc;
+  --ifm-code-font-size: 90%;
+  --docusaurus-highlighted-code-line-bg: rgba(91, 94, 248, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-background-color: #13141e;
+  --ifm-background-surface-color: #1a1b27;
+  --ifm-navbar-background-color: #13141e;
+  --ifm-footer-background-color: #0d0e17;
+}
+
+/* Tighter headings */
+.markdown h1:first-child { font-size: 2rem; }
