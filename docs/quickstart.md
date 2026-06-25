@@ -2,7 +2,7 @@
 id: quickstart
 title: Quick Start
 sidebar_label: ⚡ Quick Start
-slug: /quickstart
+slug: /
 ---
 
 import Tabs from '@theme/Tabs';
